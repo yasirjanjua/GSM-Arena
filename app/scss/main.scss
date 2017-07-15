@@ -1,0 +1,250 @@
+$primarycolor: #46c9b6;
+$accentcolor: #212642;
+$defaultborder: 1px solid $primarycolor;
+
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #f8f8f8;
+}
+
+a{
+	color: $accentcolor !important;
+	text-decoration: none;
+	&:hover{
+		text-decoration: none;
+		color: $accentcolor !important;
+		opacity: 0.8;
+	}
+	&:active{
+		text-decoration: none;
+		color: $accentcolor !important;
+		opacity: 0.8;
+	}
+}
+.block-link{
+	display: block;
+}
+
+.navbar-default{
+		background-color: rgba(33, 38, 66, 0.75) !important;
+		border: $accentcolor !important;
+	}
+
+nav{
+	margin-bottom: 0px !important;
+	.container{
+		padding: 10px;
+	}
+	.navbar-brand{
+		color: $primarycolor !important;
+	}
+	form{
+		input{
+			border: $defaultborder !important;
+			&:focus{
+				border: $defaultborder !important;
+				box-shadow: none !important;
+			}
+		}
+		.btn{
+			border: $defaultborder;
+			background-color: $accentcolor;
+			.glyphicon{
+				color: $primarycolor;
+				&:hover{
+					color: $accentcolor;
+				}
+			}
+			&:hover{
+				background-color: $primarycolor;
+				border: $defaultborder;
+				&:hover{
+					span{
+						color: $accentcolor;	
+					}
+					
+				}
+			}
+		}
+	}
+	#main-nav{
+		li{
+			a{
+				color: $primarycolor !important;
+				&:hover{
+					background-color: $primarycolor !important;
+					color: $accentcolor !important;
+				}
+				&:active{
+					background-color: $accentcolor !important;
+					color: $primarycolor !important;
+					border: $defaultborder !important;
+				}
+			}
+		}
+	}
+}
+
+main{
+	background-color: #fff;
+	border: 1px solid #ddd;
+	margin: 80px auto;
+	header{
+		.head-add{
+			padding: 10px 0px;
+		}
+	}
+	#blog-news{
+		background-color: #f8f8f8;
+		#blog-title{
+			background-color: $accentcolor;
+			color: $primarycolor;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		.media{
+			padding: 10px;
+			margin: 0px 10px 10px 10px;
+			border: 1px solid #ddd;
+			background-color: #fff;
+			.media-heading{
+				text-transform: capitalize;
+			}
+		}
+	}
+	#phone-list{
+		background-color: #f8f8f8;
+		#list-title{
+			background-color: $accentcolor;
+			color: $primarycolor;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		#list{
+			table{
+				background-color: #fff;
+				td{
+					font-size: 22px;
+					span{
+						font-size: 16px;
+					}
+					&:hover{
+						background-color: $accentcolor;
+						a{
+							color: $primarycolor !important;
+						}
+					} 
+				}
+			}
+		}
+		.phones{
+			margin: 10px 0px;
+			a{
+				span{
+					display: block;
+					padding: 5px;
+					font-size: 18px;
+					text-align: center;
+					border: $defaultborder;
+					background-color: $accentcolor;
+					margin-bottom: 5px;
+					color: $primarycolor;
+					&:hover{
+						background-color: #fff;;
+						color: $accentcolor;
+					}
+				}
+			}
+		}
+	}
+	#spec-list{
+		#spec-title{
+			background-color: $accentcolor;
+			color: $primarycolor;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		#spec-body{
+			.spec-head{
+				vertical-align: middle;
+				text-transform: uppercase;
+				color: $accentcolor;
+				font-size: 18px;
+				text-align: center;
+			}
+			.spec-dtl{
+				vertical-align: middle;
+				text-transform: uppercase;
+				text-align: center;
+			}
+		}
+	}
+	#contact{
+		background-color: #f8f8f8;
+		#contact-title{
+			background-color: $accentcolor;
+			color: $primarycolor;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		#contact-content{
+			padding: 10px;
+			border: 1px solid #ddd;
+			ul{
+				list-style: square inside none;
+			}
+			.contact-mail{
+				margin: 5px auto;
+				padding: 10px;
+				text-align: center;
+			}
+		}
+	}
+	#blog{
+		background-color: #f8f8f8;
+		#blog-title{
+			background-color: $accentcolor;
+			color: $primarycolor;
+			text-transform: uppercase;
+			text-align: center;
+		}
+		#blog-content{
+			padding: 10px;
+			background-color: #fff;
+			h3{
+				text-transform: capitalize;
+				color: $accentcolor;
+			}
+		}
+	}
+	.add-post{
+		a{
+			img{
+				margin-bottom: 10px;
+			}
+		}
+		
+	}
+}
+footer{
+		height: 60px;
+		border: 1px solid #ddd;
+		h5{
+			padding:10px;
+			text-align: center;
+		}
+}
+
+@media only screen and (max-width : 440px) {
+ #blog-news{
+ 	.media{
+ 		.media-object{
+ 			height: 100px;
+ 			width: 100px;
+ 		}
+ 	}
+ }
+}

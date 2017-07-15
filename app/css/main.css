@@ -1,0 +1,167 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background-color: #f8f8f8; }
+
+a {
+  color: #212642 !important;
+  text-decoration: none; }
+  a:hover {
+    text-decoration: none;
+    color: #212642 !important;
+    opacity: 0.8; }
+  a:active {
+    text-decoration: none;
+    color: #212642 !important;
+    opacity: 0.8; }
+
+.block-link {
+  display: block; }
+
+.navbar-default {
+  background-color: rgba(33, 38, 66, 0.75) !important;
+  border: #212642 !important; }
+
+nav {
+  margin-bottom: 0px !important; }
+  nav .container {
+    padding: 10px; }
+  nav .navbar-brand {
+    color: #46c9b6 !important; }
+  nav form input {
+    border: 1px solid #46c9b6 !important; }
+    nav form input:focus {
+      border: 1px solid #46c9b6 !important;
+      box-shadow: none !important; }
+  nav form .btn {
+    border: 1px solid #46c9b6;
+    background-color: #212642; }
+    nav form .btn .glyphicon {
+      color: #46c9b6; }
+      nav form .btn .glyphicon:hover {
+        color: #212642; }
+    nav form .btn:hover {
+      background-color: #46c9b6;
+      border: 1px solid #46c9b6; }
+      nav form .btn:hover:hover span {
+        color: #212642; }
+  nav #main-nav li a {
+    color: #46c9b6 !important; }
+    nav #main-nav li a:hover {
+      background-color: #46c9b6 !important;
+      color: #212642 !important; }
+    nav #main-nav li a:active {
+      background-color: #212642 !important;
+      color: #46c9b6 !important;
+      border: 1px solid #46c9b6 !important; }
+
+main {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  margin: 80px auto; }
+  main header .head-add {
+    padding: 10px 0px; }
+  main #blog-news {
+    background-color: #f8f8f8; }
+    main #blog-news #blog-title {
+      background-color: #212642;
+      color: #46c9b6;
+      text-transform: uppercase;
+      text-align: center; }
+    main #blog-news .media {
+      padding: 10px;
+      margin: 0px 10px 10px 10px;
+      border: 1px solid #ddd;
+      background-color: #fff; }
+      main #blog-news .media .media-heading {
+        text-transform: capitalize; }
+  main #phone-list {
+    background-color: #f8f8f8; }
+    main #phone-list #list-title {
+      background-color: #212642;
+      color: #46c9b6;
+      text-transform: uppercase;
+      text-align: center; }
+    main #phone-list #list table {
+      background-color: #fff; }
+      main #phone-list #list table td {
+        font-size: 22px; }
+        main #phone-list #list table td span {
+          font-size: 16px; }
+        main #phone-list #list table td:hover {
+          background-color: #212642; }
+          main #phone-list #list table td:hover a {
+            color: #46c9b6 !important; }
+    main #phone-list .phones {
+      margin: 10px 0px; }
+      main #phone-list .phones a span {
+        display: block;
+        padding: 5px;
+        font-size: 18px;
+        text-align: center;
+        border: 1px solid #46c9b6;
+        background-color: #212642;
+        margin-bottom: 5px;
+        color: #46c9b6; }
+        main #phone-list .phones a span:hover {
+          background-color: #fff;
+          color: #212642; }
+  main #spec-list #spec-title {
+    background-color: #212642;
+    color: #46c9b6;
+    text-transform: uppercase;
+    text-align: center; }
+  main #spec-list #spec-body .spec-head {
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #212642;
+    font-size: 18px;
+    text-align: center; }
+  main #spec-list #spec-body .spec-dtl {
+    vertical-align: middle;
+    text-transform: uppercase;
+    text-align: center; }
+  main #contact {
+    background-color: #f8f8f8; }
+    main #contact #contact-title {
+      background-color: #212642;
+      color: #46c9b6;
+      text-transform: uppercase;
+      text-align: center; }
+    main #contact #contact-content {
+      padding: 10px;
+      border: 1px solid #ddd; }
+      main #contact #contact-content ul {
+        list-style: square inside none; }
+      main #contact #contact-content .contact-mail {
+        margin: 5px auto;
+        padding: 10px;
+        text-align: center; }
+  main #blog {
+    background-color: #f8f8f8; }
+    main #blog #blog-title {
+      background-color: #212642;
+      color: #46c9b6;
+      text-transform: uppercase;
+      text-align: center; }
+    main #blog #blog-content {
+      padding: 10px;
+      background-color: #fff; }
+      main #blog #blog-content h3 {
+        text-transform: capitalize;
+        color: #212642; }
+  main .add-post a img {
+    margin-bottom: 10px; }
+
+footer {
+  height: 60px;
+  border: 1px solid #ddd; }
+  footer h5 {
+    padding: 10px;
+    text-align: center; }
+
+@media only screen and (max-width: 440px) {
+  #blog-news .media .media-object {
+    height: 100px;
+    width: 100px; } }
