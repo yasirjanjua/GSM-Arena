@@ -16,12 +16,41 @@ a {
     color: #212642 !important;
     opacity: 0.8; }
 
+h1 {
+  margin-top: 10px; }
+
 .block-link {
   display: block; }
 
 .navbar-default {
-  background-color: rgba(33, 38, 66, 0.75) !important;
+  background-color: #212642 !important;
   border: #212642 !important; }
+
+#spec {
+  background-color: #f8f8f8; }
+
+.spec-list-head {
+  background-color: #212642;
+  color: #46c9b6; }
+
+#header-spec-list {
+  overflow: hidden;
+  list-style: none inside;
+  padding-left: 0px;
+  background-color: #f8f8f8;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end; }
+  #header-spec-list li {
+    display: inline-block;
+    font-size: 1.5em;
+    margin: 10px;
+    padding: 0 10px; }
+    #header-spec-list li span {
+      font-size: 0.8em; }
+  #header-spec-list .spec-innerlist {
+    font-size: 1em;
+    margin-right: 30px; }
 
 nav {
   margin-bottom: 0px !important; }
@@ -29,6 +58,10 @@ nav {
     padding: 10px; }
   nav .navbar-brand {
     color: #46c9b6 !important; }
+  nav .navbar-form {
+    border: none; }
+  nav .navbar-collapse {
+    border: none !important; }
   nav form input {
     border: 1px solid #46c9b6 !important; }
     nav form input:focus {
@@ -115,7 +148,7 @@ main {
   main #spec-list #spec-body .spec-head {
     vertical-align: middle;
     text-transform: uppercase;
-    color: #212642;
+    color: #46c9b6;
     font-size: 18px;
     text-align: center; }
   main #spec-list #spec-body .spec-dtl {

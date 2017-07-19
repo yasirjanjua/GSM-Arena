@@ -24,14 +24,50 @@ a{
 		opacity: 0.8;
 	}
 }
+
+h1{
+	margin-top: 10px;
+}
+
 .block-link{
 	display: block;
 }
 
 .navbar-default{
-		background-color: rgba(33, 38, 66, 0.75) !important;
+		background-color: $accentcolor !important;
 		border: $accentcolor !important;
 	}
+
+#spec{
+	background-color: #f8f8f8;
+}	
+.spec-list-head{
+	background-color: $accentcolor;
+	color: $primarycolor;
+}	
+
+#header-spec-list{
+	overflow: hidden;
+	list-style: none inside;
+	padding-left: 0px;
+	background-color: #f8f8f8;
+	 display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+	li{
+		display: inline-block;
+		font-size: 1.5em;
+		margin: 10px;
+		padding: 0 10px;
+		span{
+			font-size: 0.8em;
+		}
+	}
+	.spec-innerlist{
+		font-size: 1em;
+		margin-right: 30px;
+	}
+}	
 
 nav{
 	margin-bottom: 0px !important;
@@ -40,6 +76,12 @@ nav{
 	}
 	.navbar-brand{
 		color: $primarycolor !important;
+	}
+	.navbar-form{
+		border: none;
+	}
+	.navbar-collapse{
+		border: none !important;
 	}
 	form{
 		input{
@@ -171,7 +213,7 @@ main{
 			.spec-head{
 				vertical-align: middle;
 				text-transform: uppercase;
-				color: $accentcolor;
+				color: $primarycolor;
 				font-size: 18px;
 				text-align: center;
 			}
