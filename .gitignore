@@ -38,5 +38,7 @@ Thumbs.db
 
 node_modules
 scss
+.vscode
 
 gulpfile.js
+

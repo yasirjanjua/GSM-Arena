@@ -1,5 +1,5 @@
 {
-  "name": "gsm",
+  "name": "gsm-arena",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Yasir Janjua",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^3.3.7",
